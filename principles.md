@@ -3,7 +3,7 @@ layout: page
 title: Principles
 permalink: /about/principles/
 ---
-The Pirate Party in the UK adopted a set of seven principles on which its policies are based.  All the policies and ideas you see here, as well as the stances we take in our advocacy, local or national campaigning, come from these seven principles. They determine whether we can or cannot support a specific initiative and they should be sufficient to determine our position on any number of issues, whether outlined in our manifesto or additional policy documents or not:
+This is what we believe. All our [policies](/policies/) and actions come from these seven principles.
 
 1. Our society is built upon the sharing of knowledge, ideas and culture. It is furthered by freedom of thought and expression, and protected by the rule of law. The Pirate Party exists to ensure the preservation and development of these foundations.
 1. Human dignity is inviolable. Each of us has a right to life and to live, to freedom of thought and self determination, and to participate in society.
