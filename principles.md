@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Principles
-permalink: /about/principles/
+permalink: /principles/
 ---
 This is what we believe. All our [policies](/policies/) and actions come from these seven principles.
 
