@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    // border-top: 5px solid $grey-color-dark;
+    border-top: 6px solid purple;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -25,7 +26,8 @@
 }
 
 .site-nav {
-    float: right;
+    float: left;
+    font-size: 14px;
     line-height: 56px;
 
     .menu-icon {
@@ -35,6 +37,8 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        text-transform: uppercase;
+        font-size: 12px;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -92,14 +96,19 @@
     }
 }
 
-
+nav.breadcrumb {
+  text-transform: uppercase;
+  font-size: 12px;
+}
 
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    // border-top: 1px solid $grey-color-light;
+    border-bottom: 3px solid $grey-color-light;
     padding: $spacing-unit 0;
+    font-size: 12px;
 }
 
 .footer-heading {
@@ -187,6 +196,18 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    list-style-type: none;
+    display: inline;
+    li {
+      display: inline;
+      .role {
+        background-color: #777;
+        color: white;
+        padding: 2px 4px;
+        font-size: 10px;
+        display: inline;
+      }
+    }
 }
 
 .post-link {
@@ -206,8 +227,9 @@
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
-    line-height: 1;
-
+    margin: 20px 0;
+    line-height: 1.2;
+    color: purple;
     @include media-query($on-laptop) {
         font-size: 36px;
     }
@@ -239,4 +261,23 @@
             font-size: 18px;
         }
     }
+}
+
+.people-list {
+  list-style-type: none;
+  display: inline;
+  li {
+    display: block;
+  }
+}
+
+ul.person-roles {
+  list-style-type: none;
+  li {
+    display: inline;
+  }
+}
+
+.person-title {
+  font-size: 12px;
 }
