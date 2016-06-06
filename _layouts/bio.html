@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{% assign author = site.data.people[page.author] %}
+{% assign title = author.name %}
+
+<nav class="breadcrumb"><a href="{{ "/crew/" | prepend: site.baseurl }}">Crew</a></nav>
+
+<article class="bio" itemscope itemtype="http://schema.org/Person">
+
+  <header class="post-header">
+    <img class="avatar" src="{{ site.baseurl | append: author.avatar }}">
+    <h1 class="post-title" itemprop="name headline">{{ author.name }}</h1>
+    <ul class="post-meta">
+      {% if author.title %}<li>{{ author.title }}</li>{% endif %}
+      {% if author.email %}<li>{% include icon-email.html email=author.email %}</li>{% endif %}
+      {% if author.twitter %}<li>{% include icon-twitter.html username=author.twitter %}</li>{% endif %}
+      {% for role in author.roles %}
+      <li class="role">{{ role }}</li>
+      {% endfor %}
+
+    <!-- </ul>
+    {% if author.roles %}
+    <ul class="person-roles">
+    </ul> -->
+    {% endif %}
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>

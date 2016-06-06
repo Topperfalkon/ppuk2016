@@ -1,0 +1,19 @@
+julius-caesar:
+  name: Julius Caesar
+  twitter: juliuscaesar
+  email: j.caesar@example.org
+  title: Leader
+  avatar: /images/crew/julius-caesar.jpg
+  roles:
+    - Governor
+    - NEC
+
+marcus-brutus:
+  name: Marcus Brutus
+  twitter: marcusbrutus
+  email: m.brutus@example.org
+  title: Spokesperson
+  avatar: /images/crew/marcus-brutus.jpg
+  roles:
+    - Press
+    - Campaigns
